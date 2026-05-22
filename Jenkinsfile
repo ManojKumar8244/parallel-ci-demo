@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/ManojKumar8244/parallel-ci-demo.git'
+                git branch: 'main', url: 'https://github.com/ManojKumar8244/parallel-pipeline-ci-demo.git'
             }
         }
 
